@@ -8,11 +8,18 @@ To create mindmaps I can recommend free mind (project page and download: http://
 
 
 
+
+
 Usage: download files. Then open python interpreter e.g. ipython and type
 
-from texcreator import * \n
-convert_mm_2_beamer('/path/to/MindMap.mm','/path/to/beamer.tex') \n
-convert_mm_2_tex('/path/to/MindMap.mm','/path/to/list.tex') \n
+from texcreator import *
+
+convert_mm_2_beamer('/path/to/MindMap.mm','/path/to/beamer.tex')
+
+convert_mm_2_tex('/path/to/MindMap.mm','/path/to/list.tex')
+
+
+
 
 afterwards create pdf from latex file in command line as follows:
 
