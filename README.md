@@ -22,7 +22,7 @@ Usage: download files. Then open python interpreter e.g. ipython and type
 On UNIX systems texcreator can be used as stand-alone (map to list only).
 Run once:
 
-    chmod +x 'texcreator.py'
+    chmod +x texcreator.py
 
 And now invoce with:
 
