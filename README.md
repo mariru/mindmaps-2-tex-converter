@@ -26,12 +26,12 @@ Run once:
 
 And now invoce with:
 
-    ./texconverter.py <map_file> <desired_path_for_list>
+    ./texcreator.py /path/to/MindMap.mm /path/to/list.tex
 
 
 afterwards create pdf from latex file in command line as follows:
 
-    pdflatex /path/to/beamer.tex
+    pdflatex /path/to/latex_file.tex
 
 
 Enjoy!
