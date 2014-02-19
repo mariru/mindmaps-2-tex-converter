@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+import sys
 import xml.etree.ElementTree as ET
 
 def itemize_children(node):
@@ -81,3 +83,10 @@ def convert_mm_2_beamer(mmfile,texfile):
 	file=open(texfile,"w")
 	file.write(str)
 	file.close()
+
+if __name__ == '__main__':
+    map_path = sys.argv[1]
+    list_path = sys.argv[2]
+
+    print "converting", map_path, "to list with path", list_path
+    convert_mm_2_tex(map_path, list_path)
