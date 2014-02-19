@@ -19,12 +19,12 @@ Usage: download files. Then open python interpreter e.g. ipython and type
     convert_mm_2_tex('/path/to/MindMap.mm','/path/to/list.tex')
 
 
-On UNIX system texcreator can be used standalone (map to list only) using
+On UNIX systems texcreator can be used as stand-alone (map to list only).
+Run once:
 
-    chomd +x 'texcreator.py'
+    chmod +x 'texcreator.py'
 
-Needs to be run only once to make the script executable. And invoking it
-with
+And now invoce with:
 
     ./texconverter.py <map_file> <desired_path_for_list>
 
